@@ -1,0 +1,19 @@
+/* Avatar.module.css */
+
+.avatar-container {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+    /*margin-top: 110px;*/
+    margin-bottom: 30px;
+}
+
+.avatar-img {
+    border-radius: 50%;
+    outline: 1px solid black;
+    height: 180px;
+}
+
+.avatar-info {
+    margin-left: 20px;
+}

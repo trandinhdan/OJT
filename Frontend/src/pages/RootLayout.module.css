@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; /* Khoảng cách giữa NavBar và các cột */
+    padding-left: 80px; /* Khoảng cách lề trái */
+    padding-right: 95px; /* Khoảng cách lề phải */
+    box-sizing: border-box; /* Đảm bảo padding và margin được bao gồm trong kích thước tổng thể của phần tử */
+    gap: 20px; /* Khoảng cách giữa các cột */
+}
+
+.middleColumn {
+    flex: 2; /* Điều chỉnh để tạo sự khác biệt giữa các cột */
+    margin-top: 75px; /* Khoảng cách cố định giữa NavBar và Outlet */
+}
+
+.leftColumn,
+.rightColumn {
+    flex: 1;
+    align-self: flex-start;
+    margin: 0 10px;
+    position: sticky;
+    top: 85px; /* Điều chỉnh vị trí theo chiều dọc của các cột */
+}

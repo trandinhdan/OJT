@@ -1,0 +1,71 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create two equal columns */
+    gap: 10px; /* Space between cards */
+    justify-items: center; /* Center cards horizontally */
+    margin-top: 75px; /* Add top margin to create space below navbar */
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.cardImage img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.cardText {
+    text-align: center; /* Center-align the text */
+}
+
+.cardText h3 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #343a40;
+}
+
+.cardText p {
+    font-size: 1em;
+    color: #6c757d;
+    margin-top: 5px;
+}
+
+.friendRequestButton {
+    margin-top: 12px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.friendRequestButton:hover {
+    background-color: #0056b3;
+}
+
+.cardButton {
+    font-size: medium;
+}

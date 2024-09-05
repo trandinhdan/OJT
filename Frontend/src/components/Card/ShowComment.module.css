@@ -1,0 +1,25 @@
+/* ShowComment.module.css */
+
+.modal-body {
+    padding: 20px;
+}
+
+.comment-container {
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 15px;
+}
+
+.comment-user {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.comment-content {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    line-height: 1.5;
+}

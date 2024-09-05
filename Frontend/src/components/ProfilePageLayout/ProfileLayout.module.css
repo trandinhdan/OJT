@@ -1,0 +1,33 @@
+/* App.module.css */
+/* ProfileLayout.module.css */
+.avatar {
+    margin-left: 70px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center; /* Center the flex container */
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    max-width: 1200px; /* Set a max-width for the content */
+    padding: 0 20px; /* Padding for equal left and right margins */
+    gap: 20px; /* Gap between Bio and CreatePost */
+}
+
+/*.bio {*/
+/*    !*flex: 1;*!*/
+/*    !*position: sticky;*!*/
+/*    !*top: 80px;*!*/
+/*    align-self: flex-start;*/
+/*    max-width: 300px;*/
+/*}*/
+
+.createPost {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

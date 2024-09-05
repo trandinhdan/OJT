@@ -1,0 +1,22 @@
+/* CreatePost.module.css */
+
+.container {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 850px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+
+.textarea {
+    width: 100%;
+    resize: none;
+    overflow: hidden;
+}
+
+.button {
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}

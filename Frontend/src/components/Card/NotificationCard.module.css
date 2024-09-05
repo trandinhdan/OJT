@@ -1,0 +1,25 @@
+/* Common styles for both types of notifications */
+.notificationCard {
+    display: block; /* Ensures the link or div behaves similarly */
+    text-decoration: none; /* Remove underline from link */
+    color: inherit; /* Inherit text color */
+    flex: 1 1 calc(33.333% - 10px); /* 3 cards per row */
+    box-sizing: border-box; /* Include padding and border in width/height */
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* Styles for read and unread notifications */
+.read {
+    background-color: #f0f0f0;
+    color: #999;
+}
+
+.unread {
+    background-color: #a3cedb;
+    color: #000;
+    font-weight: bold;
+}
